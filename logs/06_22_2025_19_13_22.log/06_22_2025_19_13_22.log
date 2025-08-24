@@ -1,0 +1,1 @@
+[ 2025-06-22 19:13:23,198 ] 132 langchain_google_genai._function_utils - WARNING - convert_to_genai_function_declarations expects a Sequence and not a single tool.

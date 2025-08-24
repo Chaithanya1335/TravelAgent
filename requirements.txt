@@ -1,0 +1,11 @@
+langchain
+langchain_community
+langgraph
+python-dotenv
+langchain_google_genai
+wikipedia
+pyowm
+streamlit
+plotly
+numpy
+streamlit-lottie
