@@ -1,0 +1,15 @@
+[ 2025-08-25 08:55:17,989 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[ 2025-08-25 08:55:17,989 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-08-25 08:55:23,328 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:55:23] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:55:23,346 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:55:23] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:55:23,408 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:55:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 08:55:23,408 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:55:23] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-08-25 08:57:16,338 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:57:16] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:57:16,358 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:57:16] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:57:16,358 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:57:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 08:57:16,372 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:57:16] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-08-25 09:00:44,762 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:00:44] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:00:44,789 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:00:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:00:44,789 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:00:44] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 09:00:44,791 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:00:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -

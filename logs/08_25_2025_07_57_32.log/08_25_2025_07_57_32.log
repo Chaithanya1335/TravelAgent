@@ -1,0 +1,6 @@
+[ 2025-08-25 07:57:32,143 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-08-25 07:57:32,143 ] 97 werkzeug - INFO -  * Debugger PIN: 957-245-859
+[ 2025-08-25 07:57:42,605 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 07:57:42] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 07:57:42,621 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 07:57:42] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 07:57:42,813 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 07:57:42] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 07:57:43,018 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 07:57:43] "GET /static/js/app.js HTTP/1.1" 200 -

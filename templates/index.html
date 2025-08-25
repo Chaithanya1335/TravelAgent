@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Smart Travel Planner ✈️</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <div class="brand">
+        <img src="{{ url_for('static', filename='assets/logo.png') }}" alt="Smart Travel Planner Logo"/>
+        <span>Smart Travel Planner</span>
+      </div>
+      <div class="actions">
+        <a href="https://github.com/" target="_blank" class="btn ghost">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <main class="container">
+    <section class="hero fade-in">
+      <h1>🌍 Plan Smarter. Travel Better.</h1>
+      <p>Your journey begins here. Get custom, budget-friendly itineraries in seconds.</p>
+    </section>
+
+    <!-- Example Requirement as Markdown -->
+    <section class="example-markdown fade-in">
+      <h2>📌 Example Trip Requirement</h2>
+      <pre>
+I am planning a trip from Hyderabad to Kerala from June 25 to June 30, 2025, with a total budget of ₹15,000. Please create a detailed, budget-friendly travel itinerary that includes:
+
+- Round-trip transportation from Hyderabad to Kerala  
+- Affordable accommodation for the entire stay  
+- Estimated daily food expenses  
+- A list of must-visit tourist attractions in Kerala arranged in an optimal travel route  
+- Local transportation options between places  
+
+Ensure the entire plan stays within the ₹15,000 budget.
+      </pre>
+    </section>
+
+    <!-- Input + Output Cards -->
+    <section class="grid fade-in">
+      <div class="card span-6">
+        <h2>📝 Enter Your Trip Details</h2>
+        <textarea id="tripInput" placeholder="e.g. A 5-day trip to Manali for 2 people, budget ₹20,000, prefer adventure activities"></textarea>
+        <button id="generateBtn" class="btn primary">✨ Generate Plan</button>
+        <div id="errorBox" class="error-box" style="display:none;"></div>
+      </div>
+
+      <div class="card span-6" id="result" style="display:none;">
+        <h2>✅ Your Personalized Travel Itinerary</h2>
+        <div id="planBox" class="response-box"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <span>© 2025 Smart Travel Planner. Built with Flask.</span>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

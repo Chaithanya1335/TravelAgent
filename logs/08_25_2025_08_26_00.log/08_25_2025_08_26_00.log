@@ -1,0 +1,8 @@
+[ 2025-08-25 08:26:00,376 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-08-25 08:26:00,376 ] 97 werkzeug - INFO -  * Debugger PIN: 957-245-859
+[ 2025-08-25 08:26:11,377 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:26:11] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:26:11,397 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:26:11] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:26:11,397 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:26:11] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:26:11,430 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:26:11] "GET /static/js/app.js HTTP/1.1" 200 -
+[ 2025-08-25 08:26:11,430 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:26:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:28:25,128 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Personal projects\\TravelAgent\\app.py', reloading

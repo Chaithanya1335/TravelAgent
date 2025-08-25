@@ -1,0 +1,43 @@
+[ 2025-08-25 09:01:36,211 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[ 2025-08-25 09:01:36,212 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-08-25 09:01:40,427 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:40] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:01:40,443 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:40] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 09:01:40,488 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:40,488 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:41,442 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:01:41,469 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 09:01:41,470 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:41,472 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:41,622 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:01:41,654 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 09:01:41,657 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:41,657 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:41,816 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:01:41,854 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:41,860 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 09:01:41,866 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:41,941 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:01:41,959 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:41,959 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 09:01:41,959 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:42,160 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:42] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:01:42,174 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:42] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 09:01:42,174 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:42,174 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:43,428 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:43] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:01:43,440 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:43] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 09:01:43,441 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:43,442 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:59,576 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:59] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:01:59,602 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:01:59,602 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:59] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 09:01:59,607 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:01:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:02:39,177 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:02:39] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:02:39,192 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:02:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:02:39,192 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:02:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:02:39,210 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:02:39] "GET /static/assets/logo.png HTTP/1.1" 200 -
+[ 2025-08-25 09:05:24,352 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:05:24] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 09:05:24,378 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:05:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:05:24,379 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:05:24] "[36mGET /static/assets/logo.png HTTP/1.1[0m" 304 -
+[ 2025-08-25 09:05:24,381 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 09:05:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -

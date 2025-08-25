@@ -1,0 +1,4 @@
+[ 2025-08-25 08:03:42,804 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:03:42] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:03:42,967 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:03:42] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:03:43,123 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:03:43] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:03:43,280 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:03:43] "GET /static/js/app.js HTTP/1.1" 200 -

@@ -1,0 +1,215 @@
+/* =========================
+   Smart Travel Planner - Modern UI
+   ========================= */
+
+:root {
+  --primary: #5a8aff;
+  --primary-dark: #3a68c0;
+  --accent: #ff7eb3;
+
+  --bg: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* background gradient */
+  --text: #e6edf3;
+  --muted: #9da5b4;
+
+  --card-bg: rgba(25, 25, 25, 0.75);
+  --border: rgba(255,255,255,0.1);
+  --shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+/* Reset / Base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(20,20,20,0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 0;
+  box-shadow: var(--shadow);
+}
+.nav-content { display:flex; justify-content:space-between; align-items:center; }
+.brand { display:flex; align-items:center; font-weight:600; font-size:20px; gap:10px; }
+.brand img { height:34px; filter: invert(1); }
+
+/* Hero Section */
+.hero {
+  text-align:center;
+  margin: 80px 0 60px;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero p {
+  color: var(--muted);
+  font-size: 18px;
+  margin-top: 12px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Grid Layout */
+.grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap:28px;
+}
+h2 { margin-bottom: 15px; font-size: 22px; font-weight: 600; }
+
+/* Cards */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.55);
+}
+
+/* Textarea */
+textarea {
+  width:100%; height:160px; padding:15px;
+  background: rgba(255,255,255,0.07);
+  border:1px solid var(--border);
+  border-radius:12px;
+  resize:none; font-size:16px;
+  color: var(--text);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+textarea::placeholder { color: #a9b1bc; }
+textarea:focus {
+  outline:none;
+  border-color: var(--primary);
+  box-shadow: 0 0 10px rgba(90,138,255,0.6);
+  background: rgba(255,255,255,0.1);
+}
+
+/* Buttons */
+.btn {
+  display:flex; align-items:center; justify-content:center;
+  gap:8px;
+  width:100%;
+  padding:14px 20px;
+  border-radius:999px;
+  cursor:pointer;
+  font-weight:600;
+  font-size:16px;
+  transition: all 0.25s ease;
+  border:none;
+}
+.btn.primary {
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  color:white;
+}
+.btn.primary:hover {
+  opacity:0.95;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(255,126,179,0.4);
+}
+.btn.ghost {
+  border:1px solid var(--border);
+  color:var(--muted);
+  background:none;
+}
+.btn.ghost:hover {
+  background: rgba(255,255,255,0.08);
+  color: var(--text);
+}
+
+/* Response Box */
+.response-box {
+  padding:20px;
+  border-radius:12px;
+  background: rgba(255,255,255,0.06);
+  border:1px solid var(--border);
+  white-space:pre-line;
+  overflow-y:auto;
+  max-height: 320px;
+  backdrop-filter: blur(12px);
+  line-height: 1.7;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.4);
+}
+
+/* Error Box */
+.error-box {
+  margin-top:12px;
+  padding:12px;
+  border-radius:8px;
+  background: rgba(255, 77, 77, 0.1);
+  border: 1px solid rgba(255, 77, 77, 0.4);
+  color: #ff6b6b;
+  font-size:14px;
+  display:none;
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 0.8s ease-out forwards; }
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.spinner { animation: spin 1s linear infinite; }
+
+/* Footer */
+.footer {
+  margin-top:auto;
+  padding:25px 0;
+  text-align:center;
+  font-size:14px;
+  color:var(--muted);
+  border-top:2px solid transparent;
+  background: rgba(20,20,20,0.8);
+  backdrop-filter: blur(10px);
+  border-image: linear-gradient(to right, var(--primary), var(--accent)) 1;
+}
+
+/* =========================
+   New Markdown Block Styling
+   ========================= */
+.example-markdown {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: var(--muted);
+  box-shadow: var(--shadow);
+}
+.example-markdown h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text);
+}
+.example-markdown pre {
+  white-space: pre-wrap;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  font-size: 15px;
+  color: var(--text);
+}

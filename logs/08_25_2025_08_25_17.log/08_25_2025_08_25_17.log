@@ -1,0 +1,32 @@
+[ 2025-08-25 08:25:17,407 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-08-25 08:25:17,407 ] 97 werkzeug - INFO -  * Debugger PIN: 957-245-859
+[ 2025-08-25 08:25:21,608 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:21] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:25:21,636 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:21] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:21,636 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:21] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:21,676 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 08:25:23,743 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:23] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:25:23,767 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:23] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:23,767 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:23] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:23,774 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 08:25:25,226 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:25:25,253 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:25,254 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:25,256 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 08:25:25,608 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:25:25,621 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:25,621 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:25,635 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 08:25:25,806 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:25:25,825 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:25,825 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:25,825 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 08:25:26,023 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:26] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:25:26,041 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:26] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:26,041 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:26] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:26,041 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 08:25:42,123 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:42] "GET / HTTP/1.1" 200 -
+[ 2025-08-25 08:25:42,155 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:42] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:42,157 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:42] "[33mGET /static/assets/logo.png HTTP/1.1[0m" 404 -
+[ 2025-08-25 08:25:42,159 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 08:25:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[ 2025-08-25 08:25:51,733 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Personal projects\\TravelAgent\\app2.py', reloading
+[ 2025-08-25 08:25:51,733 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Personal projects\\TravelAgent\\app2.py', reloading
